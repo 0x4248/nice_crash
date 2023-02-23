@@ -42,6 +42,14 @@ namespace nice_crash
         msg += "\n";
         msg += "[" + bold.red + "X" + bold.reset + "]"+border_sides+"[" + bold.red + "END OF MESSAGE" + bold.reset + "]"+border_sides+"[" + bold.red + "X" + bold.reset + "]" + "\n";
         std::cout << msg << std::endl;
+        free(msg);
+        free(body);
+        free(error_code);
+        free(other);
+        free(top_message);
+        free(border);
+        free(date_time);
+        free(border_sides);
     }
     void warning(std::string title, std::string body,std::string error_code, std::string other = "", std::string top_message = "A problem has occurred and the program has issued a warning.", std::string border = "-" , bool date_time = true)
     {
@@ -67,6 +75,14 @@ namespace nice_crash
         msg += "\n";
         msg += "[" + bold.yellow + "!" + bold.reset + "]"+border_sides+"[" + bold.yellow + "END OF MESSAGE" + bold.reset + "]"+border_sides+"[" + bold.yellow + "!" + bold.reset + "]" + "\n";
         std::cout << msg << std::endl;
+        free(msg);
+        free(body);
+        free(error_code);
+        free(other);
+        free(top_message);
+        free(border);
+        free(date_time);
+        free(border_sides);
     }
 }
 
