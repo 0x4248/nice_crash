@@ -1,9 +1,8 @@
-// Nice crash
-// A simple header file to create nice crash message output.
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// By: awesomelewis2007
-// GitHub: https://www.github.com/awesomelewis2007/nice_crash
-////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Nice crash
+ * A simple header file to create nice crash message output.
+ * By: awesomelewis2007
+ * GitHub: https://www.github.com/awesomelewis2007/nice_crash
+*/
 
 #ifndef CRASH
 #define CRASH
