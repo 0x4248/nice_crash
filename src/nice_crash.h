@@ -1,7 +1,8 @@
 /* Nice crash
  * A simple header file to create nice crash message output.
- * By: Lewis Evans
  * GitHub: https://www.github.com/awesomelewis2007/nice_crash
+ * Licence: GPL-3.0
+ * By: Lewis Evans
 */
 
 #ifndef CRASH
