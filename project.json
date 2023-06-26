@@ -1,0 +1,14 @@
+{
+    "name": "nice_crash",
+    "description": "A simple header file to create nice crash message output.",
+    "version": "",
+    "main_file": "src/nice_crash.h",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "/nice_crash",
+    "email": "none",
+    "languages": [
+        "c++"
+    ],
+    "actions": {}
+}
