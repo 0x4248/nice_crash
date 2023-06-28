@@ -1,6 +1,6 @@
 /* Nice crash
  * A simple header file to create nice crash message output.
- * GitHub: https://www.github.com/awesomelewis2007/nice_crash
+ * GitHub: https://www.github.com/lewisevans2007/nice_crash
  * Licence: GNU General Public License v3.0
  * By: Lewis Evans
  */
