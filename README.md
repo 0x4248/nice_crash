@@ -3,10 +3,10 @@ A simple header file to create nice crash message output.
 
 ## demo
 Crash message
-![Crash](https://raw.githubusercontent.com/lewisevans2007/nice_crash/master/doc/crash.png)
+![Crash](https://raw.githubusercontent.com/0x4248/nice_crash/master/doc/crash.png)
 
 Warning message
-![Warning](https://raw.githubusercontent.com/lewisevans2007/nice_crash/master/doc/warning.png)
+![Warning](https://raw.githubusercontent.com/0x4248/nice_crash/master/doc/warning.png)
 
 ## Usage
 ```cpp

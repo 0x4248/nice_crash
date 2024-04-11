@@ -3,9 +3,9 @@
     "description": "A simple header file to create nice crash message output.",
     "version": "",
     "main_file": "src/nice_crash.h",
-    "author": "Lewis Evans",
+    "author": "0x4248",
     "license": "GNU General Public License v3.0",
-    "url": "https://www.github.com/lewisevans2007/nice_crash",
+    "url": "https://www.github.com/0x4248/nice_crash",
     "email": "none",
     "languages": [
         "c++"
