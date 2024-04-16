@@ -7,6 +7,7 @@
 
 #include "src/nice_crash.h"
 #include <iostream>
+
 int main(int argc, char const *argv[]) {
     nice_crash::crash(
         "Demo crash", "This is a demo of the nice crash header file.",
@@ -17,6 +18,7 @@ int main(int argc, char const *argv[]) {
         "can install it by downloading the header file and adding it to your "
         "project",
         "A problem has occurred and the program has crashed.", "=", true);
+
     nice_crash::warning(
         "Demo warning", "This is a demo of the nice crash header file.",
         "DEMO_WARNING_CODE",
@@ -27,5 +29,6 @@ int main(int argc, char const *argv[]) {
         "project",
         "A problem has occurred and the program has issued a warning.", "=",
         true);
+
     return 0;
 }
