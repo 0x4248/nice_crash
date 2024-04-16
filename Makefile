@@ -9,12 +9,12 @@ STD = c++11
 OUTPUT = demo
 SRC = demo.cpp
 
-all: compile run 
+all: compile 
 
 compile:
 	$(COMPILER) $(SRC) -std=$(STD) -o $(OUTPUT) 
 
-run:
+test:
 	./$(OUTPUT) -a
 
 clean:
